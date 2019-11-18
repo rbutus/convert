@@ -146,7 +146,7 @@ def convert():
 
     #  Get username of user on their specific computer
     username = getpass.getuser()
-    dat_filepath = ("/Users/{}/Dropbox (Core6)/- references/"
+    dat_filepath = ("/Users/{}/Dropbox/- references/"
                     "Database/Data Extraction/"
                     "datnames.xlsx".format(username))
     df_datnames = pd.read_excel(dat_filepath, header=None)
